@@ -9,22 +9,24 @@
 
 ## 🛠️ Technologies and Frameworks
 
-- ⚛️ Next.js & React
-- 📘 TypeScript
-- 🎨 Tailwind CSS
-- 🔐 Clerk
-- 🗃️ Drizzle ORM & PostgreSQL
-- ☁️ AWS SDK
-- 🤖 OpenAI API
-- 💳 Stripe
-- 🔄 Axios
-- 🌲 Pinecone
-- 🧰 Drizzle-kit
-- 🌐 OpenAI Edge
-- 🚀 Neon Database Serverless
-- 🔮 @tanstack/react-query
-- 🔒 @clerk/next.js
-- 🎭 clsx & tailwind-merge
+- Next.js 13 (App Router) in TypeScript
+- Database
+  - Drizzle ORM
+  - Neon (Serverless PostgreSQL)
+- AI-related
+  - Pinecone (Vector Database)
+  - Langchain
+  - OpenAI SDK
+  - Vercel AI SDK
+- API schema validation: Zod
+- Object Storage: AWS JavaScript SDK v2
+- Payment: Stripe SDK
+- Styling: Tailwind CSS
+- Third-Party UI Components
+  - React Dropzone
+  - React Hot Toast
+  - shadcn-ui
+  - Lucide icons
 
 ## 🚀 Installation
 
@@ -56,3 +58,6 @@ Follow these steps to set up the project:
    npm run dev
    ```
    Visit [http://localhost:3000](http://localhost:3000) to see it in action!
+
+
+
